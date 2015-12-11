@@ -10,8 +10,8 @@ import /init.${ro.hardware}.rc
 import /init.usb.configfs.rc
 import /init.${ro.zygote}.rc
 import /init.trace.rc
-# Include CM's extra init file
-import /init.cm.rc
+# Include ZEUS's extra init file
+import /init.zeus.rc
 
 
 on early-init
